@@ -2,7 +2,7 @@
 
 # Script que comprueba la conexión 3g. Si está desconectado intenta conectarse y si lo consigue manda un mail con la nueva IP al correo especificado.
 # Requiere tener instalado sakisd3g (configurado como servicio)  y exim.
-# Además ha de ponerse en el cron con la periocidad deseada
+# Además se recomienda poner en el cron con la periocidad deseada
 
 
 IFACE=ppp0
